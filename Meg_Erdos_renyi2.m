@@ -16,7 +16,7 @@ N = 1000;
 p = 0.7;
 
 init_ppl = binornd(1,0.5,1,N);  % initial condition with roughly half of each language
-pct_ic = sum(ppl)/N;  % percent of IC speaking language 2
+pct_ic = sum(init_ppl)/N;  % percent of IC speaking language 2
 sim_max = 10;  % total number of simulations
 t_max = 30;  % length of simulations
 
